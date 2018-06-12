@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textviewId1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="30sp"
+        android:layout_marginBottom="20dp"
+        android:text=" আপনার মাসিকের সর্বশেষ তারিখটি দিন "
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor=" #f7f1f4 "/>
+
+
+    <Button
+        android:id="@+id/buttonId"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:background=" #d73f8b "
+        android:text="বাটন চাপুন"
+        android:textColor=" #f7f1f4 "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textviewId2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:text="আপনার মাসিকের সর্বশেষ তারিখ : "
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor=" #f7f1f4 "
+        />
+
+    <TextView
+        android:id="@+id/textviewId3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor=" #f7f1f4 "
+        />
+
+
+    <TextView
+       android:id="@+id/textviewId4"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginBottom="20dp"
+       android:text="আপনার ডেলিভারির সম্ভাব্য তারিখ :"
+       android:textStyle="bold"
+       android:textSize="15sp"
+        android:textColor=" #f7f1f4 "
+       />
+
+    <TextView
+        android:id="@+id/textviewId5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor=" #f7f1f4 "
+
+        />
+
+
+
+
+</LinearLayout>
